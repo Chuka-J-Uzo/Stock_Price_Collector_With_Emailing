@@ -227,7 +227,6 @@ for container in ROLLSROYCE_2:
 
 
  ##########   
-
     
 
 smtpserver = smtplib.SMTP_SSL('smtp.gmail.com', 465)
@@ -245,7 +244,7 @@ msg['To'] = you
 
 
 #specifiy the module location for import
-sys.path.extend(["C:\Chuka's docs\Webscrp_send_experiments"])
+sys.path.extend(["C:\folder\Webscrp_send_experiments"])
     
 
 #####
